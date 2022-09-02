@@ -1,6 +1,6 @@
 <?php 
 
-    error_reporting(-1); 
+    error_reporting(0); 
     $patient;
 
     if (!empty($_POST)) {
@@ -29,9 +29,6 @@
 
     $flagsJSON = file_get_contents('countries.json');
     $flags = json_decode($flagsJSON, true);
-    // echo "<pre>";
-    // print_r($flags);
-    // echo "</pre>";
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -43,13 +40,18 @@
     <title>Демократ</title>
 </head>
 <body>
+
+<!-- Шапка -->
     <header class="header">
         <div class="content">
             <div class="wrapper">
+
+            <!-- Логотип -->
                 <div class="logo">
                     <img src="img/logo.svg" alt="" class="logo_img">
                 </div>
-    
+
+            <!-- Номер и кнопка консультации -->
                 <div class="header_consultation">
                     <a class="header_consultation_phone">+7(345)250-07-86</a>
                     <a href="#" class="btn">Получить консультацию</a>
@@ -59,13 +61,17 @@
         </div>
     </header>
 
+<!-- Опросник -->
     <section class="quiz">
         <div class="content">
+
+        <!-- Заголовок -->
             <figure class="quiz_head">
                 <h1 class="quiz_title">Ответьте на несколько вопросов</h1>
                 <figcaption class="quiz_title_caption">и получите расчет стоимости на <span class="wavyline-main">имплантацию или протезирование <b>со скидкой до 15%</b></span></figcaption>
             </figure>
 
+        <!-- Блок опросника -->
             <div class="wrapper min-column">
                 <div class="quiz_form_block">
                     <div class="wrapper">
@@ -79,11 +85,13 @@
                                     <div class="quiz_form_progress_line" id="quiz_form_progress_line"></div>
                                 </div>
                             </div>
-        
+                        <!-- Форма опросника -->
                             <form action="index.php" method="POST" class="quiz_form" name="patient">
                                 <div class="quiz_form_wrapper">
                                     <div class="quiz_form_selects_wrapper">
                                         <div class="wrapper">
+
+                                        <!-- Первый вопрос -->
                                             <div class="quiz_form_select_block">
                                                 <p class="quiz_form_select_question">1.Есть ли у вас парадонтоз?</p>
                                                 <select name="parodontosis" id="paradontosis" class="quiz_form_select" required>
@@ -93,7 +101,8 @@
                                                     <option value="Не знаю">Не знаю</option>
                                                 </select>
                                             </div>
-                
+
+                                        <!-- Второй вопрос -->
                                             <div class="quiz_form_select_block">
                                                 <p class="quiz_form_select_question">2.Сколько зубов у вас отсутствует?</p>
                                                 <select name="teethAreMissing" id="teethAreMissing" class="quiz_form_select" required>
@@ -106,7 +115,8 @@
                                                 </select>
                                             </div>
                                         </div>
-            
+
+                                    <!-- Третий вопрос -->
                                         <div class="wrapper">
                                             <div class="quiz_form_select_block">
                                                 <p class="quiz_form_select_question">3.Есть ли у вас подвижность зубов?</p>
@@ -117,7 +127,8 @@
                                                     <option value="Не знаю">Не знаю</option>
                                                 </select>
                                             </div>
-                
+
+                                        <!-- Четвертый вопрос -->
                                             <div class="quiz_form_select_block">
                                                 <p class="quiz_form_select_question">4.Как давно вам удаляли зубы?</p>
                                                 <select name="dateOfDeletion" id="dateOfDeletion" class="quiz_form_select" required>
@@ -129,13 +140,17 @@
                                             </div>
                                         </div>
                                     </div>
-        
+
+                                <!-- Блок для связи -->
                                     <div class="wrapper" id="phone_wrapper">
+
+                                    <!-- Имя -->
                                         <div class="quiz_form_select_block">
                                             <p class="quiz_form_select_question">Как мы можем к Вам обращаться?</p>
                                             <input name="name" type="text" id="name" placeholder="Имя:" class="quiz_form_select" required>
                                         </div>
-            
+
+                                    <!-- Номер -->
                                         <div class="quiz_form_select_block" id="quiz_form_select_phone_block">
                                             <p class="quiz_form_select_question">Введите Ваш номер телефона?</p>
                                             <div class="quiz_form_select_phone_flag_block" id="quiz_form_select_phone_flag_block">
@@ -143,25 +158,28 @@
                                                 <span class="quiz_form_select_phone_flag_arrow">&#9660</span>
                                             </div>
                                             <input name="phone" type="tel" id="phone" placeholder="+7 (***) ***-**-**" class="quiz_form_select" maxlength="20" required>
-                                                <div class=phoneMask id="phoneMask" value="+7">
-                                                    <?php 
-                                                        for ($i = 0; $i < count($flags); $i++) {
-                                                            echo '<div class="phoneMask_option"><input type="hidden" class="phoneMask_option_input" value="' . $flags[$i]['Маска'] . '">';
-                                                            echo '<input type="hidden" class="phoneMask_option_input_flag" value="' . $flags[$i]['CC'] . '">';
-                                                            echo '<span>';
-                                                            echo $flags[$i]['На английском'];
-                                                            echo '</span>';
-                                                            echo '<div>';
-                                                            echo '<span class="phone_index">' . $flags[$i]['Индекс'] . '</span>';
-                                                            echo '<img src="img/flags/' . $flags[$i]['CC'] . '.svg" class="flag">';
-                                                            echo '</div>';
-                                                            echo '</div>';
-                                                        }
-                                                    ?>
-                                                </div>
+                                            
+                                            <!-- Выбор страны -->
+                                            <div class=phoneMask id="phoneMask" value="+7">
+                                                <?php 
+                                                    for ($i = 0; $i < count($flags); $i++) {
+                                                        echo '<div class="phoneMask_option"><input type="hidden" class="phoneMask_option_input" value="' . $flags[$i]['Маска'] . '">';
+                                                        echo '<input type="hidden" class="phoneMask_option_input_flag" value="' . $flags[$i]['CC'] . '">';
+                                                        echo '<span>';
+                                                        echo $flags[$i]['На английском'];
+                                                        echo '</span>';
+                                                        echo '<div>';
+                                                        echo '<span class="phone_index">' . $flags[$i]['Индекс'] . '</span>';
+                                                        echo '<img src="img/flags/' . $flags[$i]['CC'] . '.svg" class="flag">';
+                                                        echo '</div>';
+                                                        echo '</div>';
+                                                    }
+                                                ?>
+                                            </div>
                                         </div>
                                     </div>
-        
+
+                                <!-- Кнопка -->
                                     <button type="submit" class="btn quiz_form_btn" name="quiz_form">
                                         Получить расчет
                                         <img src="img/cursor.svg" alt="" class="quiz_form_btn_cursor">
@@ -170,6 +188,7 @@
                             </form>
                         </div>
 
+                    <!-- Картинка -->
                         <div class="quiz_form_teeth">
                             <div class="quiz_form_teeth_cloud">
                                 <p class="quiz_form_teeth_text">Мы рассчитаем стоимость для Вас ещё до посещения врача!</p>
@@ -178,9 +197,12 @@
                         </div>
                     </div>
                 </div>
-
+                    
+            <!-- Дополнительные качества -->
                 <div class="quiz_options">
                     <div class="wrapper">
+
+                    <!-- Первый блок -->
                         <div class="quiz_option_block" id="quiz_option_block-1">
                             <h2 class="quiz_option_title">
                                 Безболезненная имплантация
@@ -190,7 +212,8 @@
                             </p>
                             <img src="img/icons/implant.svg" id="quiz_option_icon-1" alt="" class="quiz_option_icon">
                         </div>
-    
+                        
+                    <!-- Второй блок -->
                         <div class="quiz_option_block" id="quiz_option_block-2">
                             <p class="quiz_option_intro">
                                 Пожизненная <span class="wavyline" id="wavyline-2">гарантия</span> на импланты
@@ -200,6 +223,7 @@
                         </div>
                     </div>
 
+                <!-- Третий блок -->
                     <div class="wrapper">
                         <div class="quiz_option_block" id="quiz_option_block-3">
                             <h2 class="quiz_option_title">
@@ -212,6 +236,7 @@
                             <img src="img/icons/consultation.svg" id="quiz_option_icon-3" alt="" class="quiz_option_icon">
                         </div>
                         
+                    <!-- Четвертый блок -->
                         <div class="quiz_option_block" id="quiz_option_block-4">
                             <img src="img/icons/installment.svg" id="quiz_option_icon-4" alt="" class="quiz_option_icon">
                             <h2 class="quiz_option_title">
@@ -227,6 +252,7 @@
         </div>
     </section>
 
+<!-- Подвал -->
     <footer class="footer">
         <div class="content">
             <div class="wrapper">
@@ -244,6 +270,7 @@
             </div>
         </div>
     </footer>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/dependencyLibs/inputmask.dependencyLib.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/inputmask/inputmask.min.js"></script>
     <script src="js/script.js"></script>
