@@ -1,0 +1,1190 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:wght@400;700&display=swap'); */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVadyB1Wk.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVYNyB1Wk.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVZdyB1Wk.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVaNyB1Wk.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVZ9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVa9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVatyB1Wk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjThZVZNyB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr6DRAW_0.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr4TRAW_0.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5DRAW_0.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr6TRAW_0.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5jRAW_0.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr6jRAW_0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr6zRAW_0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVadyB1Wk.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVYNyB1Wk.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVZdyB1Wk.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVaNyB1Wk.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVZ9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVa9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVatyB1Wk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVZNyB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVadyB1Wk.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVYNyB1Wk.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVZdyB1Wk.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVaNyB1Wk.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVZ9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVa9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVatyB1Wk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVZNyB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVadyB1Wk.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVYNyB1Wk.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVZdyB1Wk.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVaNyB1Wk.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVZ9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVa9yB1Wk.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVatyB1Wk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+div, p, span, h1, h2, a, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', 'Arial', sans-serif;
+    color: #28232f;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wavyline-main, .wavyline {
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 120%;
+}
+
+.wavyline-main {
+    background-image: url(../img/wavyLineMain.svg);
+}
+
+#wavyline-1 {
+    background-image: url(../img/wavyLine1.svg);
+}
+
+#wavyline-2 {
+    background-image: url(../img/wavyLine2.svg);
+}
+
+#wavyline-3 {
+    background-image: url(../img/wavyLine3.svg);
+}
+
+#wavyline-4 {
+    background-image: url(../img/wavyLine4.svg);
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding-top: 8px;
+}
+
+.logo_img {
+    width: 261px;
+}
+
+.header_consultation_phone {
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.btn {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #0093ff;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    text-decoration: none;
+    padding: 13px 32px 13px 32px;
+    cursor: pointer;
+}
+
+.header .btn {
+  margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #d1d1d1;
+    color: #28232f;
+}
+
+.btn_mobile {
+  display: none;
+}
+
+.quiz {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quiz_head {
+  margin-bottom: 30px;
+}
+
+.quiz_title_caption {
+    font-size: 24px;
+    margin-top: 10px;
+    height: 32px;
+}
+
+.quiz_form_block {
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: #c2e9ff;
+    background-position: center center;
+    border-color: #6bd1ff;
+    border-style: solid;
+    padding: 15px;
+    padding-right: 150px;
+    position: relative;
+}
+
+.quiz_form_progress {
+    margin-bottom: 10px;
+}
+
+.quiz_form .wrapper {
+    margin-bottom: 15px;
+}
+
+.quiz_form_progress_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz_form_progress_title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+
+.quiz_form_progress_percent {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.quiz_form_progress_line-contain {
+    border-radius: 5px;
+    background-color: #05a5ff;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    border: none;
+    height: 6px;
+}
+
+.quiz_form_progress_line {
+    height: 6px;
+    border-radius: 5px;
+    width: 5%;
+    background: repeating-linear-gradient(45deg, #0093ff, #0093ff 10px, #ffffff 10px, #ffffff 20px);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    animation: animprogressline 30s linear infinite;
+}
+
+@keyframes animprogressline {
+    from {
+        background-position-x: right;
+    }
+    to {
+        background-position-x: left;
+    }
+    
+}
+
+.quiz_form_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz_form_teeth {
+    position: absolute;
+    right: -7%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.quiz_form_teeth_text {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz_form_teeth_cloud {
+    background-image: url(../img/teethCloud.svg);
+    background-position: 50% 250%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 186px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 105px;
+}
+
+.quiz_form_teeth-img {
+    width: 100px;
+    animation: teeth 1s infinite linear alternate;
+}
+
+@keyframes teeth {
+    from {
+        transform: translate(0);
+        transform: rotate(0);
+    }
+    to {
+        transform: translate(0px, -15px) rotate(15deg);
+    }
+}
+
+.quiz_form select, .quiz_form input {
+    padding: 0 45px 0 20px;
+    width: 251px;
+    outline: 0;
+    color: #28232f;
+    border: 2px solid #6bd1ff;
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+}
+
+.quiz_form select {
+    cursor: pointer;
+}
+
+.quiz_form input {
+    padding: 0 20px;
+    width: 207px;
+}
+
+#phone {
+  padding-left: 50px;
+  width: 177px;
+}
+
+.quiz_form_select::placeholder {
+  color: #28232f;
+}
+.quiz_form_select::-webkit-input-placeholder {
+  color: #28232f;
+}
+.quiz_form_select:-moz-placeholder {
+  color: #28232f;
+}
+
+.wrapper .quiz_form_select_block:first-child {
+    margin-right: 20px;
+}
+
+.quiz_form_selects_wrapper {
+    margin-bottom: 30px;
+}
+
+#quiz_form_select_phone_block {
+  position: relative;
+}
+
+#phoneMask {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  width: 400px;
+  height: 300px;
+  overflow-y: scroll;
+  background-color: #fff;
+  border-radius: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.phone_index {
+  margin-right: 2px;
+}
+
+.phoneMask_option {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.phoneMask_option:hover {
+  background-color: #eee;
+}
+
+.flag {
+  height: 15px;
+  width: 30px;
+}
+
+.quiz_form_select_phone_flag_block {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+  height: 75%;
+}
+
+.quiz_form_select_phone_flag {
+  height: 13px;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  margin-right: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.quiz_form_select_phone_flag_arrow {
+  font-size: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.quiz_form_btn {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    position: relative;
+}
+
+.quiz_form_btn_cursor {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 11px;
+    animation: cursor 1s infinite linear alternate;
+}
+
+@keyframes cursor {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(10px, 6px);
+    }
+}
+
+.quiz_option_block {
+    border-radius: 20px;
+    background-color: #84d3ff;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    position: relative;
+    height: 100%;
+    width: 212px;
+    height: 191px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#quiz_option_block-2 {
+    background-color: #d6bdf4;
+}
+
+#quiz_option_block-3 {
+    background-color: #a6d8be;
+}
+
+#quiz_option_block-4 {
+    padding-top: 15px;
+    background-color: #feef34;
+}
+
+.quiz_options {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz_option_title {
+    margin-bottom: 5px;
+}
+
+.quiz_option_intro {
+    font-weight: 600;
+    font-size: 16px;
+    height: 21px;
+}
+
+#quiz_option_intro-3 {
+    margin-left: 30px;
+}
+
+.quiz_options .wrapper:first-child .quiz_option_block:first-child .quiz_option_intro {
+    font-size: 14px;
+}
+
+.quiz_option_icon {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+}
+
+.quiz_option_icon:first-child {
+    position: relative;
+}
+
+#quiz_option_icon-1,
+#quiz_option_icon-4 {
+    width: 47px;
+    height: 47px;
+}
+
+#quiz_option_icon-1 {
+    right: 15px;
+    bottom: 15px;
+}
+
+#quiz_option_icon-2 {
+    right: 10px;
+    bottom: 10px;
+}
+
+#quiz_option_icon-3 {
+    left: 10px;
+    bottom: 20px;
+}
+
+#quiz_option_icon-4 {
+    left: 136px;
+}
+
+.wrapper .quiz_option_block:first-child {
+    margin-right: 20px;
+}
+
+.quiz_options .wrapper:first-child {
+    margin-bottom: 20px;
+}
+
+.quiz_options .wrapper {
+  margin-top: 0;
+}
+
+.quiz_option_block_arrow {
+    position: absolute;
+}
+
+#quiz_option_block_arrow-2 {
+    top: 43%;
+    left: 33%;
+}
+
+#quiz_option_block_arrow-3 {
+    top: 61%;
+    left: 39%;
+}
+
+.footer {
+    padding-bottom: 30px;
+}
+
+.footer .wrapper {
+    align-items: start;
+}
+
+.footer_license {
+    font-size: 20px;
+    color: #000;
+}
+
+.footer_text {
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+    width: 470px;
+    line-height: 22px;
+}
+
+@media (max-width: 1400px) {
+  h2 {
+    line-height: 22px;
+  }
+  
+  .content {
+    width: 1080px;
+  }
+
+  .quiz_options .wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .quiz_options .wrapper:first-child {
+    margin-bottom: 0;
+  }
+
+  .wrapper .quiz_option_block:first-child {
+    margin-right: 0;
+  }
+
+  /* .quiz_form_block {
+    margin-top: -65px;
+  } */
+
+  .quiz_option_block {
+    width: 280px;
+    height: fit-content;
+    margin-bottom: 10px;
+  }
+
+  .quiz_options .wrapper:first-child {
+    margin-bottom: 10px;
+  }
+
+  .quiz_option_block:last-child {
+    margin-bottom: 0;
+  }
+
+  .quiz_option_icon, .quiz_option_icon:first-child {
+    position: absolute;
+  }
+
+  .quiz_option_block_arrow {
+    display: none;
+  }
+
+  .quiz_option_block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .quiz_option_intro, .quiz_option_title {
+    height: fit-content;
+    width: 70%;
+  }
+
+  .quiz_option_title {
+    width: 70%;
+  }
+
+  .quiz_option_intro {
+    width: 90%;
+  }
+
+  #quiz_option_icon-1, #quiz_option_icon-2, #quiz_option_icon-4 {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    left: auto;
+  }
+
+  #quiz_option_icon-3 {
+    width: 49px;
+    height: 49px;
+    right: 10px;
+    left: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .content {
+    width: 980px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .quiz_title_caption {
+    font-size: 21px;
+    margin-top: 5px;
+    height: 28px;
+  }
+
+  .quiz_option_block {
+    width: 260px;
+  }
+
+  .footer_text {
+    font-size: 16px;
+    width: 390px;
+  }
+}
+
+@media (max-width: 1020px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  
+  .content {
+    width: 720px;
+  }
+
+  .min-column {
+    flex-direction: column;
+  }
+
+  .btn {
+    padding: 11px 24px 11px 24px;
+    font-size: 14px;
+  }
+
+  .header_consultation_phone {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .quiz {
+    padding-bottom: 30px;
+  }
+
+  .quiz_head {
+    text-align: center;
+  }
+
+  .quiz_title_caption {
+    font-size: 16px;
+    height: 22px;
+  }
+
+  .quiz_form_wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .quiz_form .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  #phone_wrapper {
+    justify-content: start;
+    margin-left: 15px;
+  }
+
+  .quiz_form_block {
+    padding-right: 50px;
+  }
+
+  .wrapper .quiz_form_select_block:first-child {
+    margin-right: 0;
+  }
+
+  .quiz_form_btn {
+    position: absolute;
+    right: 123px;
+    bottom: 125px;
+    font-size: 14px;
+    width: 30%;
+  }
+
+  .quiz_form_teeth_cloud {
+    width: 168px;
+    background-position: 50% 100%;
+    background-size: 90%;
+  }
+
+  .quiz_form_teeth-img {
+    width: 75px;
+  }
+
+  .quiz_form_select_block {
+    margin-bottom: 10px;
+  }
+
+  .quiz_options {
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .quiz_options .wrapper {
+    align-items: start;
+    flex-direction: row;
+  }
+
+  .quiz_option_block {
+    margin-bottom: 0;
+  }
+
+  .quiz_options .wrapper:first-child {
+    margin-bottom: 0;
+  }
+
+  #quiz_option_block-3 {
+    align-self: end;
+  }
+
+  #quiz_option_block-1, #quiz_option_block-3 {
+    margin-right: 15px;
+  }
+
+  .footer_text {
+    font-size: 14px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 780px) {
+  p {
+    font-size: 14px;
+  }
+
+  .content {
+    width: 480px;
+  }
+
+  .header .btn {
+    display: none;
+  }
+
+  .header_consultation_phone {
+    display: none;
+  }
+
+  .btn-mobile {
+    display: block;
+    width: 50px;
+  }
+
+  .quiz_form_progress_title {
+    margin-right: 90px;
+  }
+
+  .quiz_form_wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .quiz_form_selects_wrapper {
+    margin-bottom: 0;
+  }
+
+  #phone_wrapper {
+    margin-left: 0;
+  }
+
+  .quiz_form_btn {
+    position: static;
+    width: 40%;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+  .quiz_form_block {
+    padding-bottom: 25px;
+  }
+
+  .quiz_form_teeth {
+    right: 10%;
+  }
+
+  .quiz_form_teeth_cloud {
+    width: 210px;
+    background-position: 50% 200%;
+    background-size: 84%;
+  }
+
+  .quiz_options .wrapper {
+    flex-direction: column;
+  }
+  
+  .quiz_options .wrapper:first-child {
+    margin-bottom: 10px;
+  }
+
+  .quiz_option_block {
+    margin-bottom: 10px;
+  }
+
+  .footer .wrapper {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .footer_text {
+    width: 340px;
+  }
+
+  .footer_text, .footer_license {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  .content {
+    width: 300px;
+  }
+
+  .logo_img {
+    width: 200px;
+  }
+
+  .quiz_title_caption {
+    text-align: left;
+  }
+
+  .quiz_form_progress_title {
+    margin-right: 0;
+  }
+
+  .quiz_head {
+    margin-bottom: 60px;
+  }
+
+  .quiz_form_block {
+    padding-bottom: 100px;
+  }
+
+  .quiz_form_teeth {
+    right: -10%;
+  }
+
+  .quiz_form_btn {
+    width: 65%;
+    font-size: 14px;
+  }
+}
